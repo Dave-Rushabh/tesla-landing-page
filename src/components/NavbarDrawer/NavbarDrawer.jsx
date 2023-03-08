@@ -24,7 +24,7 @@ const NavbarDrawer = ({ isOpen, onClose, btnRef }) => {
     return () => {
       window.removeEventListener("resize", handleWindowResize);
     };
-  }, [windowSize]);
+  }, []);
 
   const getMenuOptionsByWindowSize = () =>
     windowSize <= 1024 ? NAVBAR_OPTIONS : NAVBAR_OPTIONS.slice(6);
