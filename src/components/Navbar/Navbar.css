@@ -1,0 +1,40 @@
+.navbar-wrapper {
+  @apply bg-app_primary_blue text-app_white flex flex-1 p-4 text-lg h-16 gap-4;
+}
+
+.logo-wrapper {
+  @apply flex flex-[0.65] justify-start items-center;
+  @apply lg:flex-[0.15] justify-start;
+}
+
+.menu-wrapper {
+  @apply flex-[0.65] justify-around hidden;
+  @apply lg:flex;
+}
+
+.shop-wrapper {
+  @apply flex-[0.2] justify-end hidden gap-8;
+  @apply lg:flex;
+}
+
+.hamburger-wrapper {
+  @apply flex flex-[0.35] items-center justify-end px-4;
+  @apply lg:hidden;
+}
+
+.logo {
+  @apply h-3 align-middle hover:cursor-pointer;
+  @apply lg:h-4;
+}
+
+.hamburger {
+  @apply hover:cursor-pointer;
+}
+
+.nav-option {
+  @apply hover:underline underline-offset-8 cursor-pointer decoration-app_secondary_blue;
+}
+
+.menu-btn {
+  @apply px-4 border-2 border-app_white rounded-md bg-app_secondary_blue;
+}
